@@ -17,12 +17,17 @@ Currently, the code outputs one JSON blob for each cdr_id associated with the ta
 Features
 
 POS : given a particular POS tag, calculate the Jaccard similarity of all words with that tag, from ad1 and ad2 (plus the title of ad1, and the title of ad2)
+
 Names : calculate the Jaccard similarity of all names from ad1 and ad2 (plus the title of ad1, and the title of ad2)
+
 Word n-grams : calculate the Jaccard similarity of all word n-grams from ad1 and ad2 (plus the title of ad1, and the title of ad2)
+
 Char n-grams : calculate the Jaccard similarity of all character n-grams from ad1 and ad2 (plus the title of ad1, and the title of ad2)
+
 Breaklines : extract the distance of each breakline symbol from the subsequent appearance. 
 	(1) calculate the difference in length of the two resulting vectors from ad1 and ad2
 	(2) calculate the cosine similarity of the two resulting vectors from ad1 and ad2
+
 Websites : calculate the Jaccard similarity of all websites from ad1 and ad2 (plus the title of ad1, and the title of ad2)
 
 To-Do
